@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}  
+.blog-post {
+    margin: 0;
+    color: #4169e1
+}
+.blog-date {
+    margin: 0;
+    color: #808080;
+    font-size: small;
+}
+.post {
+    margin: 1;
+    font-size: small;
+}
+.blog-heading {
+    margin: 0;
+    color: #4169e1;
+}
+.button {
+    margin: 0;
+}
+.bloglist {
+    font-size: small;
+}
+.side-blogpost {
+    display: flex;
+    flex-direction: column;
+    border: 5px;
+    padding: 10px solid ;
+}
+.sidepost {
+    margin: 0;
+    font-size: smaller;
+}
+.avatar {
+    border-radius: 8x;
+    width: 150px;
+}

@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+    "ht ht ht"
+    "content content sidebar"
+    "ft ft ft";
+    background-color: #74fff4;
+    padding: 2px;
+}
+.header {
+    grid-area: ht;
+}
+.main-blogpost {
+    grid-area: content;
+}
+.side-blogpost {
+    grid-area: sidebar;
+}
+.blog-footer {
+    grid-area: ft;
+}
+

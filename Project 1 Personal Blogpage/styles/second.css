@@ -1,0 +1,50 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b1eef0;
+} 
+
+.myblogpage-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.mypersonalblogpage {
+    text-decoration: underline;
+}
+.subscribe-link {
+    color: #aaaaaa;
+}
+.blog-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 35px;
+    margin-bottom: 35px;
+}
+.blog-item {
+    border: 1px solid #ccc;
+    padding: 15px 30px;
+}
+.blog-category {
+    margin: 0;
+    color: #1771de;
+    font-weight: 700;
+}
+.blog-title {
+
+    margin: 10px 0 5px;
+}
+.blog-date {
+    margin: 0 0 5px;
+    color: #595959;
+}
+.blog-description {
+    margin: 0;
+    margin-bottom: 25px;
+}
+.blog-footer {
+    text-align: center;
+    background-color: #d8d8d8;
+    padding: 15px;
+}
